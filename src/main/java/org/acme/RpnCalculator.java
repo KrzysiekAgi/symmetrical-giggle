@@ -13,6 +13,12 @@ import java.util.List;
  * Constraints:
  * Each operand can be an integer or a string.
  * Division should be integer division where the result is truncated towards zero.
+ * <p>
+ * Examples:
+ * ["2", "4", "*", "8", "+"] => 2 * 4 + 8 = 16
+ * ["2", "4", "8", "+", "*"] => 2 * (4 + 8) = 24
+ * ["8", "4", "/", "3", "*", "1", "+"] => 8 / 4 * 3 + 1 = 7
+ * ["13", "5", "/", "4", "+"] => 13 / 5 + 4 = 6
  */
 public class RpnCalculator {
 
